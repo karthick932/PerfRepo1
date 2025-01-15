@@ -1,0 +1,312 @@
+name: SampleProject1
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /SampleProject1/src
+        type: javaClasspath
+  - name: 'Compound Tests'
+    resources: 
+  - name: Datasets
+    resources: 
+  - name: 'JMeter Tests'
+    resources: 
+  - name: Locations
+    resources: 
+  - name: Results
+    resources: 
+      - name: Sample1_1736905782940.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1736905782940
+          tags: 
+          testId: A1EFD2E2A8E9A120E564E33666316363
+          testName: Sample1
+        dependencies: 
+          - path: /SampleProject1/Results/Sample1_1736905782940_orch!system.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736905782940_orch!system.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736905782940_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736905782940_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736905784947.executiondlr
+            type: statsSessionAsset
+          - path: /SampleProject1/Tests/Sample1.testsuite
+            type: statsSessionTest
+      - name: Sample1_1736905782940_orch!system.mstats
+      - name: Sample1_1736905782940_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Sample1_1736905782940_perf!localhost.mstats
+      - name: Sample1_1736905782940_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Sample1_1736905784947.executiondlr
+      - name: Sample1_1736906255213.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1736906255213
+          tags: 
+          testId: A1EFD2E2A8E9A120E564E33666316363
+          testName: Sample1
+        dependencies: 
+          - path: /SampleProject1/Results/Sample1_1736906255213_orch!system.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736906255213_orch!system.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736906255213_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736906255213_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736906256449.executiondlr
+            type: statsSessionAsset
+          - path: /SampleProject1/Tests/Sample1.testsuite
+            type: statsSessionTest
+      - name: Sample1_1736906255213_orch!system.mstats
+      - name: Sample1_1736906255213_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Sample1_1736906255213_perf!localhost.mstats
+      - name: Sample1_1736906255213_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Sample1_1736906256449.executiondlr
+      - name: Sample1_1736906995009.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1736906995009
+          tags: 
+          testId: A1EFD2E2A8E9A120E564E33666316363
+          testName: Sample1
+        dependencies: 
+          - path: /SampleProject1/Results/Sample1_1736906995009_orch!system.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736906995009_orch!system.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736906995009_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736906995009_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736906996324.executiondlr
+            type: statsSessionAsset
+          - path: /SampleProject1/Tests/Sample1.testsuite
+            type: statsSessionTest
+      - name: Sample1_1736906995009_orch!system.mstats
+      - name: Sample1_1736906995009_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Sample1_1736906995009_perf!localhost.mstats
+      - name: Sample1_1736906995009_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Sample1_1736906996324.executiondlr
+      - name: Sample1_1736907238697.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1736907238697
+          tags: 
+          testId: A1EFD2E2A8E9A120E564E33666316363
+          testName: Sample1
+        dependencies: 
+          - path: /SampleProject1/Results/Sample1_1736907238697_orch!system.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736907238697_orch!system.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736907238697_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736907238697_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736907239776.executiondlr
+            type: statsSessionAsset
+          - path: /SampleProject1/Tests/Sample1.testsuite
+            type: statsSessionTest
+      - name: Sample1_1736907238697_orch!system.mstats
+      - name: Sample1_1736907238697_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Sample1_1736907238697_perf!localhost.mstats
+      - name: Sample1_1736907238697_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Sample1_1736907239776.executiondlr
+      - name: Sample1_1736911061639.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1736911061639
+          tags: 
+          testId: A1EFD2E2A8E9A120E564E33666316363
+          testName: Sample1
+        dependencies: 
+          - path: /SampleProject1/Results/Sample1_1736911061639_orch!system.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736911061639_orch!system.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736911061639_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736911061639_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/Sample1_1736911062949.executiondlr
+            type: statsSessionAsset
+          - path: /SampleProject1/Tests/Sample1.testsuite
+            type: statsSessionTest
+      - name: Sample1_1736911061639_orch!system.mstats
+      - name: Sample1_1736911061639_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Sample1_1736911061639_perf!localhost.mstats
+      - name: Sample1_1736911061639_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: Sample1_1736911062949.executiondlr
+      - name: VUSchedule_1736911998566.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1736911998566
+          tags: 
+          testId: A1EFD2F11C811E70FF6CB16435653537
+          testName: VUSchedule
+        dependencies: 
+          - path: /SampleProject1/Results/VUSchedule_1736911998566_orch!system.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/VUSchedule_1736911998566_orch!system.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/VUSchedule_1736911998566_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/VUSchedule_1736911998566_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /SampleProject1/Results/VUSchedule_1736912007354.executiondlr
+            type: statsSessionAsset
+          - path: /SampleProject1/Schedules/VUSchedule.testsuite
+            type: statsSessionTest
+      - name: VUSchedule_1736911998566_orch!system.mstats
+      - name: VUSchedule_1736911998566_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: VUSchedule_1736911998566_perf!localhost.mstats
+      - name: VUSchedule_1736911998566_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: VUSchedule_1736912007354.executiondlr
+  - name: Schedules
+    resources: 
+      - name: VUSchedule.testsuite
+        type: com.ibm.rational.test.lt.schedule
+        version: 11.0.2.0
+        properties: 
+          description: 'Stages:
+
+	users=24; duration=Run Until Finished
+
+User Group 1: Group Size 34.0 percent
+
+	Test(s): Sample1,Sample2
+
+User Group 2: Group Size 33.0 percent
+
+	Test(s): Sample3,Sample4
+
+User Group 3: Group Size 33.0 percent
+
+	Test(s): Sample5,Sample6
+
+'
+          name: VUSchedule
+          type: com.ibm.rational.test.common.schedule.Schedule
+          uid: A1EFD2F11C811E70FF6CB16435653537
+        dependencies: 
+          - path: /SampleProject1/Tests/Sample1.testsuite
+            type: scheduleInvokedTest
+          - path: /SampleProject1/Tests/Sample2.testsuite
+            type: scheduleInvokedTest
+          - path: /SampleProject1/Tests/Sample3.testsuite
+            type: scheduleInvokedTest
+          - path: /SampleProject1/Tests/Sample4.testsuite
+            type: scheduleInvokedTest
+          - path: /SampleProject1/Tests/Sample5.testsuite
+            type: scheduleInvokedTest
+          - path: /SampleProject1/Tests/Sample6.testsuite
+            type: scheduleInvokedTest
+  - name: Tests
+    resources: 
+      - name: Sample1(2).recdata
+      - name: Sample1(2).recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /SampleProject1/Tests/Sample1(2).recdata
+            type: recsessionRecdata
+      - name: Sample1.recdata
+      - name: Sample1.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /SampleProject1/Tests/Sample1.recdata
+            type: recsessionRecdata
+      - name: Sample1.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.2.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EFD2E2A8E9A120E564E33666316363
+        dependencies: 
+          - path: /SampleProject1/Tests/Sample1(2).recsession
+            type: testRecsession
+      - name: Sample2.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.2.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EFD2F0B518573FFF6CB16435653537
+        dependencies: 
+          - path: /SampleProject1/Tests/Sample1(2).recsession
+            type: testRecsession
+      - name: Sample3.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.2.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EFD2F0BDE94586FF6CB16435653537
+        dependencies: 
+          - path: /SampleProject1/Tests/Sample1(2).recsession
+            type: testRecsession
+      - name: Sample4.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.2.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EFD2F12F45D2BFFF6CB16435653537
+        dependencies: 
+          - path: /SampleProject1/Tests/Sample1(2).recsession
+            type: testRecsession
+      - name: Sample5.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.2.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EFD2F136DF4F72FF6CB16435653537
+        dependencies: 
+          - path: /SampleProject1/Tests/Sample1(2).recsession
+            type: testRecsession
+      - name: Sample6.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.2.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EFD2F1503954FFFF6CB16435653537
+        dependencies: 
+          - path: /SampleProject1/Tests/Sample1(2).recsession
+            type: testRecsession
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: Sample1_Test_A1EFD2E2A8E9A120E564E33666316363.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Sample2_Test_A1EFD2F0B518573FFF6CB16435653537.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Sample3_Test_A1EFD2F0BDE94586FF6CB16435653537.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Sample4_Test_A1EFD2F12F45D2BFFF6CB16435653537.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Sample5_Test_A1EFD2F136DF4F72FF6CB16435653537.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Sample6_Test_A1EFD2F1503954FFFF6CB16435653537.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: VUSchedule_Schedule_A1EFD2F11C811E70FF6CB16435653537.java
+            type: com.ibm.rational.test.lt.generatedCode
