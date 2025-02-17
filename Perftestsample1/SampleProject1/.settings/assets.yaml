@@ -183,7 +183,7 @@ resources:
     resources: 
       - name: VUSchedule.testsuite
         type: com.ibm.rational.test.lt.schedule
-        version: 11.0.2.0
+        version: 11.0.4.0
         properties: 
           description: 'Stages:
 
@@ -234,7 +234,7 @@ User Group 3: Group Size 33.0 percent
             type: recsessionRecdata
       - name: Sample1.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 11.0.2.0
+        version: 11.0.4.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -244,7 +244,7 @@ User Group 3: Group Size 33.0 percent
             type: testRecsession
       - name: Sample2.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 11.0.2.0
+        version: 11.0.4.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -254,7 +254,7 @@ User Group 3: Group Size 33.0 percent
             type: testRecsession
       - name: Sample3.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 11.0.2.0
+        version: 11.0.4.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -264,7 +264,7 @@ User Group 3: Group Size 33.0 percent
             type: testRecsession
       - name: Sample4.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 11.0.2.0
+        version: 11.0.4.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -274,7 +274,7 @@ User Group 3: Group Size 33.0 percent
             type: testRecsession
       - name: Sample5.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 11.0.2.0
+        version: 11.0.4.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -284,7 +284,7 @@ User Group 3: Group Size 33.0 percent
             type: testRecsession
       - name: Sample6.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 11.0.2.0
+        version: 11.0.4.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
